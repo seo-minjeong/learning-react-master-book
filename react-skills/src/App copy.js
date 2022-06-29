@@ -1,7 +1,4 @@
-import { React, useCallback, useState, useRef } from "react";
-import { Route } from "react-router-dom";
-import About from "./About";
-import Home from "./Home";
+import React, { useRef, useCallback, useState } from "react";
 import produce from "immer";
 
 const App = () => {
