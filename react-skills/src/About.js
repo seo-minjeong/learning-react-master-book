@@ -1,6 +1,7 @@
 import React from "react";
 import qs from "qs";
 
+// url 쿼리 예제
 const About = ({ location }) => {
   const query = qs.parse(location.search, {
     //  이 설정을 통해 문자열 맨 앞의 ?를 생략합니다.
