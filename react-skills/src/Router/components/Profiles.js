@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
-import Profile from "./Profile";
+import Profile from "../../Profile";
 import WithRouterSample from "./WithRouterSample";
 
 // url 파라미터 예제

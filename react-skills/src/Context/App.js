@@ -1,5 +1,5 @@
-import React from "react";
-import ColorBox from "../src/Context/contexts/ColorBox";
+import { Route, Routes, Link, Switch } from "react-router-dom";
+import ColorBox from "./ColorBox";
 
 const App = () => {
   return (

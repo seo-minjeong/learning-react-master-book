@@ -1,5 +1,5 @@
 import React from "react";
-import ColorContext from "../contexts/color";
+import ColorContext from "./color";
 
 const ColorBox = () => {
   return (
