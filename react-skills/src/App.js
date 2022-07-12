@@ -1,11 +1,14 @@
 import React from "react";
 import ColorBox from "../src/Context/contexts/ColorBox";
+import { ColorProvider } from "../src/Context/contexts/color";
 
 const App = () => {
   return (
-    <div>
-      <ColorBox />
-    </div>
+    <ColorProvider>
+      <div>
+        <ColorBox />
+      </div>
+    </ColorProvider>
   );
 };
 
