@@ -11,3 +11,5 @@ const Counter = ({ number, onIncreasse, onDecrease }) => {
     </div>
   );
 };
+
+export default Counter;

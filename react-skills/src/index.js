@@ -1,15 +1,6 @@
-// import React from "react";
-// import ReactDOM from "react-dom";
-// import "./index.css";
-// import App from "./App";
-// import { BrowserRouter } from "react-router-dom";
+import ReactDOM from "react-dom";
 
-// const rootElement = document.getElementById("root");
-// ReactDOM.render(
-//   <BrowserRouter>
-//     <App />
-//   </BrowserRouter>,
-//   rootElement
-// );
+import "./index.css";
+import App from "./App";
 
-console.log("hello parcel");
+ReactDOM.render(<App />, document.getElementById("root"));

@@ -1,5 +1,5 @@
 import React from "react";
-import Counter from "../src/Redux/Counter";
+import Counter from "./Redux/components/Counter";
 
 const App = () => {
   return (
@@ -8,3 +8,5 @@ const App = () => {
     </div>
   );
 };
+
+export default App;
