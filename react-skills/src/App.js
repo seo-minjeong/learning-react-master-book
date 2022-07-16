@@ -1,17 +1,10 @@
 import React from "react";
-import SelectColors from "./SelectColors";
-import ColorBox from "../src/Context/contexts/ColorBox";
-import { ColorProvider } from "../src/Context/contexts/color";
+import Counter from "../src/Redux/Counter";
 
 const App = () => {
   return (
-    <ColorProvider>
-      <div>
-        <SelectColors />
-        <ColorBox />
-      </div>
-    </ColorProvider>
+    <div>
+      <Counter number={0} />
+    </div>
   );
 };
-
-export default App;
