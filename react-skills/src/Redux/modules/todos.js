@@ -14,15 +14,8 @@ export const insert = createAction(INSERT, (text) => ({
   done: false,
 }));
 
-export const toggle = (id) => ({
-  type: TOGGLE,
-  id,
-});
-
-export const remove = (id) => ({
-  type: REMOVE,
-  id,
-});
+export const toggle = createAction(TOGGLE, (id) => id);
+export const remove = createAction(REMOVE, (id) => id);
 
 const initialState = {
   input: "",
