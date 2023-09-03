@@ -3,8 +3,8 @@ import { createAction, handleActions } from "redux-actions";
 const INCREASE = "counter/INCREASE";
 const DECREASE = "counter/INCREASE";
 
-export const increse = createAction(INCREASE);
-export const decrese = createAction(DECREASE);
+export const increase = createAction(INCREASE);
+export const decrease = createAction(DECREASE);
 
 const initialState = {
   number: 0,
